@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "server": "nodemon index.js",
+    "server-install": "npm install",
+    "install-all": "concurrently \"npm run server-intall\"",
     "dev": "nodemon index.js"
   },
   "author": "",
